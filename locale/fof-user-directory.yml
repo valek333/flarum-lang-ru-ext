@@ -17,8 +17,8 @@ fof-user-directory:
             empty_text: "Пользователи, соответствующие Вашему запросу, не найдены."
             filter_button: "Фильтр групп"
             usercard:
-                discussion-count: "{count, plural, один { {count} discussion} другой {{count} discussions}}"
-                post-count: "{count, plural, один { {count} post} другой {{count} posts}}"
+                discussion-count: "{count, plural, one { {count} дискуссия} other {{count} дискуссий}}"
+                post-count: "{count, plural, one { {count} пост} other {{count} постов}}"
 
     admin:
         permissions:
