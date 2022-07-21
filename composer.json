@@ -16,7 +16,7 @@
 		}
 	],
 	"support": {
-		"issues": "https://github.com/valek333/flarum-lang-ru-ext/issues",
+		"issues": "https://github.com/valek333/flarum-lang-ru-ext/issues"
 	},
 	"require": {
 		"flarum/core": "^1.3"
