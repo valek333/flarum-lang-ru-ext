@@ -1,0 +1,7 @@
+{
+  "fof-email-checker": {
+    "error": {
+      "disposable_email_message": "Вы не можете использовать одноразовый e-mail."
+    }
+  }
+}
