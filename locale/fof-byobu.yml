@@ -53,7 +53,6 @@ fof-byobu:
             recipients_modified:
                 added_and_removed: "{username} добавил(а) {added} и удалил(а) {removed} участников."
                 added: "{username} добавил(а) участников: {added}."
-                
 								made_public: "{username} удалил всех получателей и сделал обсуждение общедоступным"
                 removed: "{username} удалил(а) участников: {removed}."
                 removed_self: "{username} покинул(а) переписку."
