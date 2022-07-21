@@ -69,7 +69,7 @@
       "composer": {
         "titlePlaceholder": "Заголовок вопроса"
       },
-      "user": }
+      "user": {
       "best-answer-count": "{count, plural, one { {count} best answer} другой {{count} best answers}}"
       }
     },
