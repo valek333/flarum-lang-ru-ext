@@ -1,19 +1,18 @@
 {
-	"name": "yourname/flarum-lang-xxish",
+	"name": "/valek333/flarum-lang-ru-my/",
 	"type": "flarum-extension",
-	"description": "Xxish language pack for Flarum.",
-	"homepage": "https://github.com/yourname/flarum-lang-xxish",
+	"description": "Rus extension language pack for Flarum.",
+	"homepage": "https://github.com/valek333/flarum-lang-ru-my/",
 	"keywords": [
 		"locale",
 		"flarum",
-		"xx-locale"
 	],
 	"license": "MIT",
 	"authors": [
 		{
-			"name": "Your Name",
-			"email": "your@email.net",
-			"homepage": "https://yourhomepage.com/"
+			"name": "Valentin Kuharenko",
+			"email": "v.m.kuharenko@yandex.ru",
+			"homepage": "https://github.com/valek333/"
 		}
 	],
 	"support": {
