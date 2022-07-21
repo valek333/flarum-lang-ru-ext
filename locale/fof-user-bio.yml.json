@@ -1,1 +1,12 @@
-1
+fof-user-bio:
+    admin:
+        permission:
+            view: Смотреть BIO
+            editOwn: Править своё BIO
+            editAny: Править любое BIO
+        setting:
+            bioLimit: Ограничение на количество символов
+
+    forum:
+        userbioPlaceholder: Напиши что-нибудь о себе
+        userbioPlaceholderOtherUser: Написать био для {username}
