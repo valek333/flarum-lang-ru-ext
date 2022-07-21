@@ -7,7 +7,7 @@ fof-nightmode:
     admin:
         settings:
             modal:
-            		always_show_theme_toggle_on_header: "Всегда показывать кнопку переключения темы в заголовке форума"
+            	always_show_theme_toggle_on_header: "Всегда показывать кнопку переключения темы в заголовке форума"
                 default_theme: "Тема по умолчанию"
                 default_theme_helper: "Тема по умолчанию автоматически устанавливается для новых пользователей, гостей, а также для тех, кто самостоятельно не указал желаемые параметры темы у себя в профиле."
                 theme_auto: => fof-nightmode.ref.auto
