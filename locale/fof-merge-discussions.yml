@@ -52,8 +52,6 @@ fof-merge-discussions:
     merged:
       body: |
         Привет {имя_получателя},
-
  				Ваша дискуссия, {merged_discussion_title}, была объединенина в {discussion_title} с помощью {actor_display_name}.
-
  				Просмотрите ее здесь {discussion_url} 
       subject: Your discussion "{merged_discussion_title}" was merged
