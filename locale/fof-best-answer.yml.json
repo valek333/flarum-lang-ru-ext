@@ -50,8 +50,7 @@
         "awarded": "Ваше сообщение было выбрано в качестве лучшего ответа пользователем {username}",
         "preferences": {
           "awarded_best_answer": "Моё сообщение выбрано в качестве лучшего ответа",
-          "best_answer_in_discussion": "Выбран лучший ответ в дискуссии, в которой я участвовал",
-          "select_best_answer": "Автоматическое напоминание о выборе наилучшего ответа в дискуссии, которую я начал"
+          "best_answer_in_discussion": "Выбран лучший ответ в дискуссии, в которой я участвовал"
         }
       },
       "index": {
@@ -68,9 +67,6 @@
       },
       "composer": {
         "titlePlaceholder": "Заголовок вопроса"
-      },
-      "user": {
-        "best-answer-count": "{count, plural, one { {count} best answer} другой {{count} best answers}}"
       }
     },
     "email": {
