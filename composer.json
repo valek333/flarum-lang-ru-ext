@@ -1,8 +1,8 @@
 {
-	"name": "/valek333/flarum-lang-ru-my/",
+	"name": "/valek333/flarum-lang-ru-ext/",
 	"type": "flarum-extension",
 	"description": "Rus extension language pack for Flarum.",
-	"homepage": "https://github.com/valek333/flarum-lang-ru-my/",
+	"homepage": "https://github.com/valek333/flarum-lang-ru-ext/",
 	"keywords": [
 		"locale",
 		"flarum",
@@ -16,7 +16,7 @@
 		}
 	],
 	"support": {
-		"issues": "https://github.com/valek333/flarum-lang-ru-my/issues",
+		"issues": "https://github.com/valek333/flarum-lang-ru-ext/issues",
 	},
 	"require": {
 		"flarum/core": "^1.3"
