@@ -1,0 +1,3 @@
+fof-email-checker:
+  error:
+    disposable_email_message: Вы не имеете возможности использовать одноразовую электронную почту.
