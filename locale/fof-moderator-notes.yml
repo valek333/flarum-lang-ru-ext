@@ -1,0 +1,26 @@
+fof-moderator-notes:
+  admin:
+    permissions:
+      createnotes: "Создавать заметки"
+      viewnotes: "Смотреть заметки"
+      deletenotes: "Удалять заметки"
+  forum:
+    no_content_given: "Пустая заметка не допускается."
+    moderatorNotes:
+      created_text: "{username} создал(а) эту заметку в {date}"
+      add_button: "Создать заметку"
+      create-heading: "Создание новой заметки"
+      dismiss_button: "Готово"
+      input_heading: "Введите заметку для <strong>{username}</strong>, (поддерживается markdown)"
+      noNotes: "Кажется, здесь нет заметок."
+      submit_button: "Сохранить"
+      delete: "Удалить"
+      confirm: "Вы уверены, что хотите удалить заметку?"
+
+    user:
+      notes: "Заметки"
+
+  api:
+    auto_note: "_Я переключился на этого пользователя:_ {reason}"
+    auto_note_actor: "_Переключился на_ @{username}: {reason}"
+    no_reason_provided: "Причина не указана"
