@@ -1,1 +1,1 @@
-Flarum Rus Pack
+Flarum Rus Pack EXT
