@@ -60,6 +60,8 @@ fof-best-answer:
       accessible_label: "Решено / Не решено"
     composer:
       titlePlaceholder: "Заголовок вопроса"
+    user:
+      best-answer-count: "{count, plural, one { {count} лучший ответ} other {{count} лучших ответов}}"
   email:
     subject:
       awarded: "Ваше сообщение было выбрано в качестве лучшего ответа пользователем {display_name}"
