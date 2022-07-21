@@ -45,7 +45,6 @@ fof-best-answer:
       awarded: "Ваше сообщение было выбрано в качестве лучшего ответа пользователем {username}"
 
       preferences:
-      	best_answer_in_discussion: "{username} задайте лучший ответ в этом обсуждении"
         awarded_best_answer: "Моё сообщение выбрано в качестве лучшего ответа"
         best_answer_in_discussion: "Выбран лучший ответ в дискуссии, в которой я участвовал"
 
@@ -61,8 +60,6 @@ fof-best-answer:
       accessible_label: "Решено / Не решено"
     composer:
       titlePlaceholder: "Заголовок вопроса"
-    user:
-      best-answer-count: "{count, plural, one { {count} лучший ответ} other {{count} лучших ответов}}"
   email:
     subject:
       awarded: "Ваше сообщение было выбрано в качестве лучшего ответа пользователем {display_name}"
