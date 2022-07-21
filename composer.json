@@ -19,7 +19,7 @@
 		"issues": "https://github.com/valek333/flarum-lang-ru-ext/issues"
 	},
 	"require": {
-		"flarum/core": "^0.1"
+		"flarum/core": "^1.3"
 	},
 	"minimum-stability": "dev",
 	"extra": {
