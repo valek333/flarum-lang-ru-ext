@@ -1,0 +1,49 @@
+{
+  "core": {
+    "forum": {
+      "index_sort": {
+        "popular_button": "Больше просмотров",
+        "unpopular_button": "Меньше просмотров"
+      }
+    }
+  },
+  "michaelbelgium-discussion-views": {
+    "forum": {
+      "modal_resetviews": {
+        "title": "Сбросить количество просмотров дискуссий",
+        "submit_button": "Да, сбросить все",
+        "label": "{count, plural, one {Удалить {count} просмотр дискуссии. Продолжить?} other {Удалить {count} просмотров дискуссии. Продолжить?}}"
+      },
+      "discussion_controls": {
+        "resetviews_button": "Сбросить просмотры"
+      },
+      "viewlist": {
+        "title": "Последние, кто посмотрел",
+        "guest": "Гость"
+      },
+      "post": {
+        "viewed_by": "{users} посмотрел это.",
+        "you": "=> core.ref.you",
+        "others_link": "=> core.ref.some_others",
+        "modal_title_text": "Пользователи, которые в последний раз просматривали эту дискуссию"
+      }
+    },
+    "admin": {
+      "permissions": {
+        "reset_views_label": "Сброс просмотров дискуссий",
+        "view_number_label": "Просмотр количества просмотров дискуссии"
+      },
+      "settings": {
+        "title": "Параметры просмотра дискуссий",
+        "track_unique_label": "Отслеживайте уникальных пользователей",
+        "track_guests": "Отслеживание гостей",
+        "abbr_numbers_label": "Сокращенные номера просмотров",
+        "show_filter_label": "Включить (не)популярное поле сортировки",
+        "max_viewcount_label": "Максимальное количество элементов списка просмотра",
+        "max_viewcount_text": "Это относится к списку просмотра нижнего колонтитула и списку просмотра боковой панели",
+        "show_viewlist_label": "Включить список просмотров",
+        "show_footer_viewlist_label": "Включить список просмотра нижнего колонтитула"
+      }
+    }
+  }
+}
