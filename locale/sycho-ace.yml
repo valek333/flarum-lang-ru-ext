@@ -1,0 +1,14 @@
+sycho-ace:
+  admin:
+    extensions: "Расширения"
+    category_selection:
+      label: "Упорядочить по"
+      options:
+        default: "По умолчанию"
+        vendor: "По авторам"
+        none: "Нет"
+        availability: "По активным"
+    categories:
+      none: "A-Z"
+      enabled: "Включено"
+      disabled: "Выключено"
