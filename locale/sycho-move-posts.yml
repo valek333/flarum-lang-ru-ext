@@ -1,0 +1,57 @@
+sycho-move-posts:
+  admin:
+    settings:
+      moved_first_post_content: "Перенесенный пост (Первое сообщение) Содержание"
+      moved_first_post_content_help: >
+        Если у вас есть обсуждение только с одним сообщением, перемещение этого сообщения приведет к тому, что первое сообщение первоначального обсуждения будет отредактировано, чтобы указать на новое обсуждение. Вы можете отредактировать содержание этого поста здесь.
+      group_sequential_posts: "Групповая последовательная публикация объединила записи о событиях в одну."
+
+    permissions:
+      move_posts: => sycho-move-posts.ref.move_posts
+
+  forum:
+    badge:
+      first_moved_tooltip: "Перемещен"
+
+    discussion:
+      move_posts: => sycho-move-posts.ref.move_posts
+
+    error:
+      move_old_post_to_newer_discussion: => sycho-move-posts.ref.status.old_to_new_move
+
+    modal:
+      check: "Проверьте тип операции"
+      destination: "Переместить в дискуссию"
+      discussion_help: "Будут использоваться теги исходного обсуждения, которые могут быть изменены после создания."
+      discussion_name: => core.forum.composer_discussion.title_placeholder
+      new_discussion: "Новая дискуссия"
+      selected_posts: "{count, plural, one {Выбран один пост} other {{count} поста выбрано}}"
+      status:
+        complex_move: "Это будет сложный шаг, посты будут перемещаться между постами, что приведет к изменению старых URL-ссылок на сообщения целевого обсуждения."
+        old_to_new_move: => sycho-move-posts.ref.status.old_to_new_move
+        simple_move: "Это будет простой шаг, все посты будут добавлены в конце обсуждения."
+      submit: "Начать"
+      title: => sycho-move-posts.ref.move_posts
+
+    notifications:
+      post_moved_text: "Один или несколько ваших постов были перемещены в {targetDiscussionTitle}."
+
+    post:
+      unmove: "Отменить перемещение"
+      move: "Переместить"
+      moving: "Перемещение постов"
+
+    post_stream:
+      post_moved: "{count, plural, one {{username} переместил пост в {target_discussion}.} other {{username} переместил {count} поста(ов) в {target_discussion}.}}"
+
+  ref:
+    move_posts: "Перемещение постов"
+
+    status:
+      old_to_new_move: "Невозможно переместить старую запись в новое обсуждение"
+
+  lib:
+    discussion:
+      first_post:
+        default_content: >
+          *Этот пост был перенесен в **[%DISCUSSION_NAME%](%POST_LINK%)**.*
