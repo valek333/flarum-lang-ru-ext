@@ -7,21 +7,21 @@ fof-ignore-users:
   # Translations in this namespace are used by the admin interface.
   admin:
     permissions:
-      can_not_be_ignored_label: "Нельзя игнорировать"
+      can_not_be_ignored_label: "Нельзя добавить в черный список"
 
 
   # Translations in this namespace are used by the forum interface.
   forum:
 
-    profile_link: "Игнорируемые пользователи"
+    profile_link: "Черный список"
 
     # These strings are used in the User Controls menu.
     user_controls:
-      ignore_button: "Игнорировать"
-      ignore_confirmation: "Вы уверены, что хотите игнорировать этого пользователя?"
-      unignore_button: "Не игнорировать"
-      unignore_confirmation: "Вы уверены, что хотите не игнорировать этого пользователя?"
+      ignore_button: "В черный список"
+      ignore_confirmation: "Вы уверены, что хотите добавить этого пользователя в черный список?"
+      unignore_button: "Разблокировать"
+      unignore_confirmation: "Вы уверены, что хотите убрать этого пользователя из черного списка?"
 
     badge:
-      user_label: "Игнорируемый"
-      discussion_label: "Опубликовано игнорируемым пользователем"
+      user_label: "В черном списке"
+      discussion_label: "Опубликовано пользователем в черном списке"
