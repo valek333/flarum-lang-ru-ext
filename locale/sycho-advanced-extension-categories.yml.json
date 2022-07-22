@@ -7,7 +7,7 @@
         "options": {
           "default": "По умолчанию",
           "vendor": "По авторам",
-          "none": "Нет",
+          "none": "A-Z",
           "availability": "По активным"
         }
       },
