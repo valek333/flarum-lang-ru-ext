@@ -1,0 +1,8 @@
+clarkwinkelmann-likes-received:
+    forum:
+        user-card:
+            likes: "{likes, plural, one {# полученный лайк} other {# полученных лайков}}"
+
+    admin:
+        permission:
+            view: "Просмотр полученных лайков"
