@@ -6,7 +6,7 @@ sycho-ace:
       options:
         default: "По умолчанию"
         vendor: "По авторам"
-        none: "Нет"
+        none: "A-Z"
         availability: "По активным"
     categories:
       none: "A-Z"
