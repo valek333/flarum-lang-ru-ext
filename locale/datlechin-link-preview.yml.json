@@ -1,0 +1,16 @@
+{
+  "datlechin-link-preview": {
+    "admin": {
+      "settings": {
+        "blacklist_label": "Черный список",
+        "blacklist_help": "Введите разделенный запятыми список доменов или URL-адресов, которые необходимо исключить из предварительного просмотра ссылок.",
+        "blacklist_placeholder": "e.g. facebook.com,https://domain.com/path",
+        "convert_media_urls_label": "Преобразование URL-адресов с мультимедиа",
+        "convert_media_urls_help": "Если эта функция включена, все URL-адреса мультимедиа будут преобразованы в предварительные просмотры ссылок."
+      }
+    },
+    "forum": {
+      "site_cannot_be_reached": "Этот сайт недоступен."
+    }
+  }
+}
