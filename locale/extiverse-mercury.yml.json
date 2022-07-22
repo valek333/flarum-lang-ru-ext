@@ -1,0 +1,26 @@
+{
+  "extiverse-mercury": {
+    "admin": {
+      "extension-updates-page": {
+        "extension-name": "Расширение",
+        "extension-is-up-to-date": "Актуальная версия",
+        "highest-version": "Последняя версия",
+        "installed-version": "Установленная версия"
+      },
+      "settings": {
+        "token": "Токен Extiverse (<a>request</a>)",
+        "token-description": "Извлеките токен API из <a>Extiverse</a>, чтобы Mercury могла безопасно взаимодействовать с вашим сообществом Flarum.\n"
+      },
+      "header-secondary": {
+        "no-token": "Требуемый токен",
+        "updates": "{count, plural, =0 {Обновлений нет} one {Одно обновление} other {# обновлений}}"
+      }
+    },
+    "email": {
+      "new-extension-update": {
+        "subject": "{count, plural, one {Одно обновление, доступное для вашего сайта} other {# обновлений доступно для вашего сайта}}",
+        "body": "Привет {recipient_display_name}!\n\n{count} в вашем сообществе Flarum были обнаружены обновления. Настоятельно рекомендуется\nобновить их как можно скорее.\n\nОбновления включают в себя следующие расширения {extensions}.\n\nПожалуйста, посетите ваше сообщество для получения дополнительной информации: {url}.\n"
+      }
+    }
+  }
+}
