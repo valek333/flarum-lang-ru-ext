@@ -1,0 +1,9 @@
+{
+  "littlecxm-reply-to-see": {
+    "forum": {
+      "hidden_content": "СКРЫТЫЙ КОНТЕНТ",
+      "reply_to_see": "Вы должны {reply} и обновить эту страницу, чтобы увидеть содержимое.",
+      "button_tooltip": "Добавить скрытое содержимое"
+    }
+  }
+}
