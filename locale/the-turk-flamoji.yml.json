@@ -1,0 +1,98 @@
+{
+  "the-turk-flamoji": {
+    "admin": {
+      "settings": {
+        "emoji_settings_heading": "Настройки Emoji",
+        "category_settings_heading": "Категории настроек",
+        "general_ui_settings_heading": "Общие настройки пользовательского интерфейса",
+        "show_variants_label": "Показать варианты",
+        "show_variants_text": "Некоторые emojis имеют варианты оттенка кожи. Когда emojis выбран в окне выбора, имеющем варианты, появится всплывающее окно с вариантами, чтобы пользователь мог выбрать нужный вариант.",
+        "auto_hide_label": "Автоматическое скрытие",
+        "auto_hide_text": "Скрыть средство при выборе emojis.",
+        "show_preview_label": "Показать предварительный просмотр",
+        "show_category_buttons_label": "Показать кнопки категорий",
+        "show_search_label": "Показать вводимые данные для поиска",
+        "show_recents_label": "Показывать (и сохранять) самые последние использованные emojis",
+        "recents_count_label": "Количество недавно использованных emojis",
+        "recents_count_text": "Количество последних emojis для сохранения.",
+        "emoji_style_label": "Стиль Emoji",
+        "emoji_version_label": "Версия Emoji",
+        "emoji_version_text": "Версия спецификации Emoji для использования.",
+        "initial_category_label": "Начальная категория",
+        "initial_category_text": "По умолчанию средство выбора начинает показывать категорию Смайликов и эмоций.",
+        "specify_categories_label": "Укажите категории",
+        "specify_categories_text": "Здесь вы можете указать список категорий и средство выбора покажет только эти категории.",
+        "emoji_data_label": "Данные Emoji",
+        "emoji_data_text": "Обычно это используется для предоставления переведенных имен Emoji",
+        "emoji_style_native_option": "Свой вариант",
+        "emoji_categories": {
+          "smileys": "=> the-turk-flamoji.ref.emoji_categories.smileys",
+          "people": "=> the-turk-flamoji.ref.emoji_categories.people",
+          "animals": "=> the-turk-flamoji.ref.emoji_categories.animals",
+          "food": "=> the-turk-flamoji.ref.emoji_categories.food",
+          "travel": "=> the-turk-flamoji.ref.emoji_categories.travel",
+          "activities": "=> the-turk-flamoji.ref.emoji_categories.activities",
+          "objects": "=> the-turk-flamoji.ref.emoji_categories.objects",
+          "symbols": "=> the-turk-flamoji.ref.emoji_categories.symbols",
+          "flags": "=> the-turk-flamoji.ref.emoji_categories.flags"
+        }
+      },
+      "custom_emojis_section": {
+        "heading_title": "Кастом Emojis",
+        "import_json_button": "Импорт JSON",
+        "export_json_button": "Экспорт JSON",
+        "import_emojis_message": "Это приведет к импорту только конфигураций эмодзи. Вам нужно загрузить изображения смайликов вручную.",
+        "edit_emoji": {
+          "modal_title": "Добавить Emoji",
+          "emoji_title_label": "Название Emoji",
+          "delete_emoji_confirmation": "Вы уверены, что хотите удалить это emoji?",
+          "text_to_replace_label": "Текст для замены",
+          "path_or_url_label": "Путь или URL",
+          "submit_button": "=> core.ref.save_changes",
+          "delete_emoji_button": "Удалить emoji",
+          "saved_message": "=> core.admin.settings.saved_message"
+        },
+        "emoji_list": {
+          "load_more_button": "=> core.forum.post_stream.load_more_button"
+        }
+      }
+    },
+    "forum": {
+      "composer": {
+        "emoji_tooltip": "Вставить emoji"
+      },
+      "emoji-button": {
+        "search_placeholder": "Поиск Emojis",
+        "no_emojis_found_message": "Не найдены emojis",
+        "categories": {
+          "recents": "=> the-turk-flamoji.ref.emoji_categories.recents",
+          "smileys": "=> the-turk-flamoji.ref.emoji_categories.smileys",
+          "people": "=> the-turk-flamoji.ref.emoji_categories.people",
+          "animals": "=> the-turk-flamoji.ref.emoji_categories.animals",
+          "food": "=> the-turk-flamoji.ref.emoji_categories.food",
+          "travel": "=> the-turk-flamoji.ref.emoji_categories.travel",
+          "activities": "=> the-turk-flamoji.ref.emoji_categories.activities",
+          "objects": "=> the-turk-flamoji.ref.emoji_categories.objects",
+          "symbols": "=> the-turk-flamoji.ref.emoji_categories.symbols",
+          "flags": "=> the-turk-flamoji.ref.emoji_categories.flags",
+          "custom": "=> the-turk-flamoji.ref.emoji_categories.custom"
+        }
+      }
+    },
+    "ref": {
+      "emoji_categories": {
+        "recents": "Последние Emojis",
+        "smileys": "Smileys & Emotion",
+        "people": "People & Body",
+        "animals": "Animals & Nature",
+        "food": "Food & Drink",
+        "travel": "Travel & Places",
+        "activities": "Activities",
+        "objects": "Objects",
+        "symbols": "Symbols",
+        "flags": "Flags",
+        "custom": "Custom"
+      }
+    }
+  }
+}
