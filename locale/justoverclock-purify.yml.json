@@ -1,7 +1,7 @@
 {
   "flarum-ext-purify": {
     "forum": {
-      "obscure": "\U0001F603"
+      "obscure": "\U0001F608"
     },
     "admin": {
       "additem": "Добавьте стоп-слова в массив",
