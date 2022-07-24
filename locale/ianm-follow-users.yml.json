@@ -65,7 +65,7 @@
       "new_post_body": "Привет {recipient_display_name},\n\n{user_display_name} написал новый пост в дискуссии: {discussion_title}\n\nЧтобы просмотреть, перейдите по следующей ссылке:\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nВы больше не будете получать никаких уведомлений об этой дискуссии, пока не будете в курсе последних событий.\n"
     },
     "lib": {
-      "following_link": "Подписки",
+      "following_link": "Подписки на пользователей",
       "follow": "Подписки",
       "change_follow_type": "Изменить тип подписки",
       "follow_levels": {
