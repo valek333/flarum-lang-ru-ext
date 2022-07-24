@@ -1,6 +1,6 @@
 flarum-ext-purify:
   forum:
-    obscure: "\U0001F608"
+    obscure: "\U0001F92C"
   admin:
     additem: "Добавьте стоп-слова в массив"
     additemdesc: "разделяйте каждое слово запятой (например, word1,word2,word3,)"
