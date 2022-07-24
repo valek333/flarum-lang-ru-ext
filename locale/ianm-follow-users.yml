@@ -3,7 +3,7 @@ ianm-follow-users:
     permissions:
       be_followed_label: "Разрешать пользователям подписываться друг на друга"
     settings:
-      button-on-profile-label: "Показать кнопку "Подписаться" в шапке профиля пользователя"
+      button-on-profile-label: "Показать кнопку Подписаться в шапке профиля пользователя"
 
   forum:
     profile_link: => ianm-follow-users.lib.following_link
