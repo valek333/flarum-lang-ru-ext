@@ -1,0 +1,37 @@
+{
+  "nearata-tags-color-generator": {
+    "admin": {
+      "color_luminosity_label": "Яркость цвета",
+      "color_luminosity_options": {
+        "random": "Рандомно",
+        "light": "Светлый",
+        "bright": "Яркий",
+        "dark": "Темный"
+      },
+      "color_hue_label": "Цветовой Оттенок",
+      "color_hue_options": {
+        "random": "Рандомно",
+        "red": "Красный",
+        "orange": "Оранжевый",
+        "yellow": "Желтый",
+        "green": "Зеленый",
+        "blue": "Синий",
+        "purple": "Фиолетовый",
+        "pink": "Розовый",
+        "monochrome": "Монохромный"
+      },
+      "text_color": {
+        "label": "Цвет текста",
+        "options": {
+          "default": "По умолчанию",
+          "theme_primary_color": "Основной цвет темы",
+          "theme_secondary_color": "Тема Вторичный Цвет",
+          "custom": "Кастомный цвет"
+        },
+        "custom_label": "Кастомный цвет текста",
+        "custom_helptext": "Должно быть шестнадцатеричным (включая "
+      },
+      "generate_color_button": "Генерировать случайный цвет"
+    }
+  }
+}
