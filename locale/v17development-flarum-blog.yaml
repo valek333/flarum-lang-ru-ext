@@ -41,7 +41,7 @@ v17development-flarum-blog:
     blog: "Блог"
     read_more: "Подробнее"
     hidden: "Скрытый"
-    recent_posts: "Последнии посты в блоге"
+    recent_posts: "Последнии статьи в блоге"
     categories: "Теги"
     forum_nav: "Навигация форума"
     return_to_overview: "Вернуться к обзору блога"
