@@ -1,0 +1,42 @@
+askvortsov-categories:
+  admin:
+    basics:
+      categories_label: "Теги"
+    labels:
+      keep_tags_nav: "Сохранить ссылку на страницу тегов на боковой панели навигации?"
+      child_bare_icon: "Иконки тегов без фона?"
+      compact_mobile_mode: "Компактный мобильный дизайн"
+      full_page_desktop: "Полный дизайн"
+      parent_remove_icon: "Скрыть значки для тегов верхнего уровня?"
+      parent_remove_description: "Скрыть описания для тегов верхнего уровня?"
+      parent_remove_stats: "Скрыть статистику для тегов верхнего уровня?"
+      parent_remove_last_discussion: "Скрыть самые последние обсуждения для тегов верхнего уровня?"
+      small_forum_optimized: "Оптимизировать для небольших форумов?"
+    help:
+      child_bare_icon: "Должны ли значки дочерних категорий отображаться без кругового фона?"
+      full_page_desktop: "Должно ли навигационное меню боковой панели быть свернуто в строку (как на традиционной странице тегов)? Это также скроет виджеты (например, Статистику форума Друзей Flarum) с панели навигации страницы категорий."
+      small_forum_optimized:  "Это даст более точное количество обсуждений / сообщений, но значительно замедлит работу средних и крупных форумов."
+    headings:
+      nav: "Навигация"
+      layout: "Расположение"
+      parent_display: "Отображение родительской категории"
+      child_display: "Отображение дочерних категорий"
+      performance: "Представление"
+    title: "Расширеная настройка тегов"
+
+  forum:
+    all_categories:
+      meta_description_text: "Все теги"
+      meta_title_text: => askvortsov-categories.ref.categories
+    header:
+      back_to_categories_tooltip: "Вернуться к тегам"
+    index:
+      categories_link: => askvortsov-categories.ref.categories
+    stat-widgets:
+      discussion_label: "Дискуссий"
+      post_label: "Постов"
+    last_discussion_widget:
+      no_discussions: "Нет дискуссий"
+
+  ref:
+    categories: "Теги"
