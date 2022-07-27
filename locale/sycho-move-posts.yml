@@ -54,4 +54,4 @@ sycho-move-posts:
     discussion:
       first_post:
         default_content: >
-          *Этот сообщение было перенесено в **[%DISCUSSION_NAME%](%POST_LINK%)**.*
+          *Это сообщение было перенесено в **[%DISCUSSION_NAME%](%POST_LINK%)**.*
