@@ -1,17 +1,17 @@
 fof-user-directory:
     forum:
         header:
-            back_to_user_directory_tooltip: "Назад к списку участников"
+            back_to_user_directory_tooltip: "Назад к списку пользователей"
 
         search:
-            users_heading: 'Поиск всех пользователей: "{query}"'
+            users_heading: 'Поиск пользователей: "{query}"'
             field:
-                placeholder: "Найти всех пользователей..."
+                placeholder: "Поиск пользователей..."
             kinds:
                 group: Группа
                 text: Свободный текст
         page:
-            nav: "Список участников"
+            nav: "Список пользователей"
             refresh_tooltip: => core.forum.index.refresh_tooltip
             load_more_button: => core.ref.load_more
             empty_text: "Пользователи, соответствующие Вашему запросу, не найдены."
@@ -22,7 +22,7 @@ fof-user-directory:
 
     admin:
         permissions:
-            view_user_directory: "Смотреть список участников"
+            view_user_directory: "Смотреть список пользователей"
         settings:
             link: "Ссылка на странице форума"
             default-sort: "Сортировка по умолчанию"
