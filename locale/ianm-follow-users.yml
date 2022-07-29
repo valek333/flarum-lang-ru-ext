@@ -100,7 +100,7 @@ ianm-follow-users:
   lib:
     following_link: "Подписки на пользователей"
 
-    follow: "Подписки"
+    follow: "Подписаться"
     change_follow_type: "Изменить тип подписки"
 
     follow_levels:
