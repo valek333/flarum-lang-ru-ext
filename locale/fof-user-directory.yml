@@ -8,8 +8,8 @@ fof-user-directory:
             field:
                 placeholder: "Поиск пользователей..."
             kinds:
-                group: Группа
-                text: Свободный текст
+                group: "Группа"
+                text: "Поиск"
         page:
             nav: "Пользователи"
             refresh_tooltip: => core.forum.index.refresh_tooltip
