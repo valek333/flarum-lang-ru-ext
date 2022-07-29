@@ -15,7 +15,7 @@
         }
       },
       "page": {
-        "nav": "Список пользователей",
+        "nav": "Пользователи",
         "refresh_tooltip": "=> core.forum.index.refresh_tooltip",
         "load_more_button": "=> core.ref.load_more",
         "empty_text": "Пользователи, соответствующие Вашему запросу, не найдены.",
