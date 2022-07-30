@@ -62,7 +62,7 @@ fof-best-answer:
     composer:
       titlePlaceholder: "Заголовок вопроса"
     user:
-      best-answer-count: "{count, plural, one { {count} лучший ответ} other {{count} лучших ответов}}"
+      best-answer-count: "{count, plural, one { {count} лучший ответ} other {{count} лучших ответа(ов)}}"
   email:
     subject:
       awarded: "Ваше сообщение было выбрано в качестве лучшего ответа пользователем {display_name}"
