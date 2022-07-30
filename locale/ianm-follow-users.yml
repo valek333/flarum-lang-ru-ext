@@ -19,7 +19,7 @@ ianm-follow-users:
       notify_new_follower_label: "Кто-то подписался на меня"
       notify_new_unfollower_label: "Кто-то отписался от меня"
       notify_new_discussion_label: "Кто-то, на кого я подписан, начал дискуссию"
-      notify_new_post_label: "Кто-то, на кого я подписан, публикует пост в дискуссии"
+      notify_new_post_label: "Кто-то, на кого я подписан, публикует сообщение в дискуссии"
       block_follow: "Запретить пользователям подписываться на меня"
 
     index:
