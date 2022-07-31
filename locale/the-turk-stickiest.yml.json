@@ -1,0 +1,50 @@
+{
+  "the-turk-stickiest": {
+    "admin": {
+      "permissions": {
+        "super_sticky_discussions_label": "Супер закреп дискуссий",
+        "tag_sticky_discussions_label": "Закреп тегов дискуссий"
+      },
+      "settings": {
+        "badge_icon_label": "Значек супер закрепа",
+        "badge_icon_text": "=> core.ref.icon_text",
+        "display_tag_sticky_label": "Показывать стикеры с тегами в списке Все обсуждения",
+        "display_tag_sticky_text": "Они будут рассматриваться как обычные обсуждения и не будут зацикливаться на главном."
+      }
+    },
+    "forum": {
+      "badge": {
+        "sticky_tooltip": "=> the-turk-stickiest.ref.sticky",
+        "super_sticky_tooltip": "=> the-turk-stickiest.ref.super_sticky",
+        "tag_sticky_tooltip": "=> the-turk-stickiest.ref.tag_sticky",
+        "super_tag_sticky_tooltip": "=> the-turk-stickiest.ref.super_tag_sticky"
+      },
+      "stickiest_modal": {
+        "title": "Закрепить {title}",
+        "sticky_label": "=> flarum-sticky.ref.sticky",
+        "sticky_text": "Закрепленные обсуждения будут отображаться вверху списка Все обсуждения, если они непрочитаны. При просмотре определенного тега, который относится к обсуждению, он всегда будет оставаться вверху.",
+        "super_sticky_label": "=> the-turk-stickiest.ref.super_sticky",
+        "super_sticky_text": "Супер закрепленные обсуждения будут находиться в самом верху, несмотря ни на что.",
+        "tag_sticky_label": "=> the-turk-stickiest.ref.tag_sticky",
+        "tag_sticky_text": "Стикеры с тегами по умолчанию скрыты в списке Все обсуждения. Они будут отображаться и отображаться вверху только при просмотре определенного тега, то есть одного из тегов, которые вы выберете здесь. Этот вариант можно комбинировать с Супер закрепленным.",
+        "tags_label": "=> flarum-tags.ref.tags",
+        "submit_button": "=> core.ref.save_changes"
+      },
+      "discussion_controls": {
+        "sticky_button": "=> flarum-sticky.forum.discussion_controls.sticky_button"
+      },
+      "post_stream": {
+        "discussion_stickied_text": "=> flarum-sticky.forum.post_stream.discussion_stickied_text",
+        "discussion_unstickied_text": "=> flarum-sticky.forum.post_stream.discussion_unstickied_text",
+        "discussion_super_stickied_text": "{username} отметил дискуссию как супер закрепеленную.",
+        "discussion_common_stickied_text": "{username} отменил дискуссию как супер закрепленную."
+      }
+    },
+    "ref": {
+      "sticky": "=> flarum-sticky.ref.sticky",
+      "super_sticky": "Супер закрепленное",
+      "tag_sticky": "Закрепленный тег",
+      "super_tag_sticky": "Супер закрепленный тег"
+    }
+  }
+}
