@@ -1,0 +1,18 @@
+fof-impersonate:
+    admin:
+        permissions:
+            login: "Войдить в систему как другие пользователи"
+        settings:
+            title: "FoF Impersonate"
+            require_reason: "Требуйте ввода причины, прежде чем заходить под другим пользователем."
+            no_settings_available: "В настоящее время никакие настройки не доступны. Попробуйте установить fof/moderator-notes"
+
+    forum:
+        modal:
+            title: "Войдите в систему как другой пользователь"
+            label: "На вас лежит большая ответственность. Продолжая, вы станете {username} до тех пор, пока не выйдете из системы."
+            placeholder_optional: "(Optional) Укажите причину перехода на этого пользователя"
+            placeholder_required: "Вы должны указать причину перехода на этого пользователя, прежде чем продолжить"
+            impersonate_username: "Войти как {username}"
+        user_controls:
+            impersonate_button: "Войдите в систему как пользователь"
