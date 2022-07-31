@@ -15,4 +15,4 @@ fof-impersonate:
             placeholder_required: "Вы должны указать причину перехода на этого пользователя, прежде чем продолжить"
             impersonate_username: "Войти как {username}"
         user_controls:
-            impersonate_button: "Войдите в систему как пользователь"
+            impersonate_button: "Войдите как этот пользователь"
