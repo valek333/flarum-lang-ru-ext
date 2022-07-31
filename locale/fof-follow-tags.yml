@@ -27,7 +27,7 @@ fof-follow-tags:
       ignoring_text: "Никогда не уведомлять."
       lurking_button: => fof-follow-tags.ref.lurking
       lurking_text: "Получать уведомления обо всех новых дискуссиях и сообщениях."
-      not_following_button: "Не подписан"
+      not_following_button: "Не подписаны"
       not_following_text: "Уведомить при @упоминании."
       notify_alert_tooltip: "Получать уведомления на форуме, когда появляются новые дискуссии или сообщения"
       notify_email_tooltip: "Получать e-mail, когда появляются новые дискуссии или сообщения"
@@ -80,8 +80,8 @@ fof-follow-tags:
             Чтобы посмотреть новую дискуссию, перейдите по следующей ссылке:
             {discussion_url}
   ref:
-    follow: "Подписка"
-    following: "Подписка"
+    follow: "Подписаться"
+    following: "Подписаться"
     hiding: "Скрыть"
     ignoring: "Игнорировать"
     lurking: "Следить"
