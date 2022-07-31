@@ -2,7 +2,7 @@
   "flarum-calendar": {
     "forum": {
       "button": {
-        "landing": "Календар событий",
+        "landing": "Календарь событий",
         "create": "Новое событие",
         "login": "Добавьте свое событие"
       },
