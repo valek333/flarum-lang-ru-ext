@@ -1,0 +1,108 @@
+the-turk-diff:
+    forum:
+        revisions:                    "{revisionCount, plural, one {{revisionCount} редактирование} other {{revisionCount} редактирований}}"
+        emptyText:                    "Никаких Изменений"
+        editedText:                   => core.forum.post.edited_text
+        deletedText:                  (deleted)
+        
+        tooltips:
+          # Revision List Tooltips
+          mostRecent:                 "самое последние"
+          originalContent:            => the-turk-diff.ref.originalContent
+          revisionWithNumber:         => the-turk-diff.ref.revisionWithNumber
+          ## Renderer Switcher Tooltips
+          sideBySide:                 "Рядом"
+          inline:                     "Построчно"
+          combined:                   "Комбинированный"
+          preview:                    => core.forum.composer.preview_tooltip
+
+        # Buttons
+        optionsButton:                "Опции"
+        deleteButton:                 => core.forum.post_controls.delete_button
+        rollbackButton:               "Откат к редактированию {number}"
+        rollbackToOriginalButton:     "Откат к оригиналу"
+        revertChangesButton:          "Отменить Изменения"
+
+        # Confirmation Messages
+        confirmRollback:              "Вы уверены, что хотите изменить свою текущее сообщение?"
+        confirmDelete:                "Вы уверены, что хотите удалить содержимое этой правки из истории?"
+
+        # Error Messages
+        rollbackErrorMessage:         "Возврат изменений не удался."
+        deleteErrorMessage:           "Не удалось удалить содержимое редактирования."
+
+        # Informative Messages
+        rollbackSuccessMessage:       "Ваши изменения были отменены."
+        deleteSuccessMessage:         "Содержимое редактирования было удалено."
+        editedInfo:                   => core.forum.post.edited_tooltip
+        deletedInfo:                  "{username} удалил это содержимое  {ago}"
+        createdInfo:                  "{username} создал {ago}"
+        revisionInfo:                 "Edited {revisionCount, plural, one {{revisionCount} раз} other {{revisionCount} раз(а)}}, newest at the top"
+        noDiff:                       "Никаких различий между этими двумя содержаниями обнаружено не было."
+
+        differences:
+           # one of the following will be used in place of {old} or {new} in ‘sentence’ key
+          originalContent:            => the-turk-diff.ref.originalContent
+          currentContent:             => the-turk-diff.ref.currentContent
+          revisionWithNumber:         => the-turk-diff.ref.revisionWithNumber
+          # ---
+          sentence:                   "Вы просматриваете различия между {old} и {new}"
+
+        previewMode:
+          # one of the following will be used in place of {content} in ‘sentence’ key
+          originalContent:            => the-turk-diff.ref.originalContent
+          currentContent:             => the-turk-diff.ref.currentContent
+          revisionWithNumber:         => the-turk-diff.ref.revisionWithNumber
+          # ---
+          sentence:                   "Предварительный просмотр {content}"
+    admin:
+        settings:
+            title:                    "Настройки изменений редактирования"
+
+            ####################
+            # General Settings #
+            ####################
+
+            # Informative Messages
+            onlyUnsigned:             "Допускаются только <strong>целые числа без знака</strong>!"
+            usePoint:                 "Используйте <strong>точку</strong> в качестве десятичного разделителя для значений с плавающей запятой."
+
+            # Switch Components
+            separateBlock:            "Показывать разделитель между различными фрагментами diff в средствах визуализации HTML"
+            mainPostOnly:             "Сохранять только редакции основного сообщения"
+            textFormatting:           "Включить форматирование текста для предварительного просмотра"
+
+            # Select Component
+            detailLevel:              "Детальный уровень"
+            noneLevel:                "Нет уровня"
+            lineLevel:                "Линейный уровень"
+            wordLevel:                "Уровень слов"
+            charLevel:                "Уровень символов"
+
+            # Text Type Inputs
+            neighborLines:            "Соседние линии"
+            neighborLinesHelp:        "Укажите количество соседних строк, которые вы хотите отобразить."
+            # ---
+            mergeThreshold:           "Порог слияния для объединенного средства визуализации"
+            mergeThresholdHelp:       "Это определяет, следует ли объединять блок типа замены или нет, в зависимости от коэффициента изменения содержимого, который составляет от 0 до 1."
+
+            ##################################
+            # Database Optimisation Settings #
+            ##################################
+
+            dbOptimisation:           "Оптимизация базы данных"
+            archiveOlds:              "Архивируйте старые версии"
+            archiveOldsInfo:          "Если <strong>x ≥ A</strong>, первые <strong>y=mx+b</strong> ревизии для публикации будут сохранены как объединенные и сжатые. <strong>x</strong> относится к количеству ревизий записи. Значения с плавающей запятой <strong>y</strong> будут округлены до следующего наименьшего целого значения."
+            useCrons:                 "Используйте crons для архивирования старых ревизий"
+            useCronsHelp:             "Вы должны добавить запись Cron на свой сервер, чтобы эта опция работала. Он будет работать еженедельно по воскресеньям в 02:00 утра. Если вы отключите эту опцию и включите выше, все изменения записи будут проверяться для архивирования при пересмотре соответствующей записи."
+            archiveInfo:              "Имейте в виду, что вы можете отключить обе опции и выполнить команду <code>php flarum diff:archive</code>, чтобы заархивировать старые версии вручную."
+        permissions:
+            viewEditHistory:          "Просмотр истории редактирования"
+            deleteEditHistory:        "Удалять других редактировать историю"
+            selfDeleteEditHistory:    "Удалить собственную историю редактирования"
+            rollbackEditHistory:      "Откат истории других правок"
+            selfRollbackEditHistory:  "Откат собственной истории правок"
+    ref:
+        originalContent:              "Оригинальное сообщение"
+        currentContent:               "Текущее содержание"
+        revisionWithNumber:           "Редактирование {number}"
