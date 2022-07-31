@@ -19,7 +19,7 @@
         "impersonate_username": "Войти как {username}"
       },
       "user_controls": {
-        "impersonate_button": "Войдите в систему как пользователь"
+        "impersonate_button": "Войти как этот пользователь"
       }
     }
   }
