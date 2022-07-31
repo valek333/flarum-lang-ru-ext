@@ -59,7 +59,7 @@ fof-byobu:
 
         user:
             settings:
-                block_pd: "Отключить переписки"
+                block_pd: "Отключить переписки (закрытые дискуссии)"
             byobu_link: "Переписки"
             dropdown_label: "Переписки"
 
