@@ -42,7 +42,7 @@
       },
       "stat-widgets": {
         "discussion_label": "Дискуссий",
-        "post_label": "Постов"
+        "post_label": "Сообщений"
       },
       "last_discussion_widget": {
         "no_discussions": "Нет дискуссий"
