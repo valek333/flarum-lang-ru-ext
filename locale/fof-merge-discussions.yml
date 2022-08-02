@@ -54,4 +54,4 @@ fof-merge-discussions:
         Привет {имя_получателя},
         Ваша дискуссия, {merged_discussion_title}, была объединена в {discussion_title} пользователем {actor_display_name}.
         Просмотрите ее здесь {discussion_url} 
-      subject: "Ваше обсуждение {merged_discussion_title} было объединено"
+      subject: "Ваша дискуссия {merged_discussion_title} была объединена"
