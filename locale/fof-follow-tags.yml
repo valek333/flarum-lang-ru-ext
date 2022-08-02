@@ -22,7 +22,7 @@ fof-follow-tags:
       following_button: => fof-follow-tags.ref.following
       following_text: "Получать уведомления обо всех новых дискуссиях в этом <b>теге</b>."
       hiding_button: => fof-follow-tags.ref.hiding
-      hiding_text: 'Отключение уведомлений из этого тега. Скрыть в списке дискуссий.'
+      hiding_text: 'Отключение уведомлений из этого тега. Скрыть тег в списке дискуссий.'
       ignoring_button: => fof-follow-tags.ref.ignoring
       ignoring_text: "Никогда не уведомлять."
       lurking_button: => fof-follow-tags.ref.lurking
