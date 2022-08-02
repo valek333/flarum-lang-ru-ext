@@ -17,7 +17,7 @@
         "submit_button": "=> fof-merge-discussions.ref.merge"
       },
       "notification": {
-        "discussion_merged": "Ваша дискуссия <b>{oldTitle}</b> была объединенина в это обсуждение с помощью {username}.",
+        "discussion_merged": "Ваша дискуссия <b>{oldTitle}</b> была объединена в это обсуждение с помощью {username}.",
         "preferences": {
           "discussion_merged": "Кто-то объединяет одну из моих дискуссий с другой"
         }
@@ -52,8 +52,8 @@
     },
     "email": {
       "merged": {
-        "body": "Привет {имя_получателя},\n\n Ваша дискуссия, {merged_discussion_title}, была объединенина в {discussion_title} с помощью {actor_display_name}.\n\n Просмотрите ее здесь {discussion_url} \n",
-        "subject": "Your discussion \"{merged_discussion_title}\" was merged"
+        "body": "Привет {имя_получателя},\nВаша дискуссия, {merged_discussion_title}, была объединена в {discussion_title} пользователем {actor_display_name}.\nПросмотрите ее здесь {discussion_url} \n",
+        "subject": "Ваша дискуссия {merged_discussion_title} была объединена"
       }
     }
   }
