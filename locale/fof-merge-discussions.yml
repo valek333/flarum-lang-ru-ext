@@ -20,7 +20,7 @@ fof-merge-discussions:
       submit_button: => fof-merge-discussions.ref.merge
 
     notification:
-      discussion_merged: "Ваша дискуссия <b>{oldTitle}</b> была объединенина в это обсуждение с помощью {username}."
+      discussion_merged: "Ваша дискуссия <b>{oldTitle}</b> была объединена в это обсуждение с помощью {username}."
       preferences:
         discussion_merged: "Кто-то объединяет одну из моих дискуссий с другой"
     
@@ -52,6 +52,6 @@ fof-merge-discussions:
     merged:
       body: |
         Привет {имя_получателя},
-        Ваша дискуссия, {merged_discussion_title}, была объединенина в {discussion_title} с помощью {actor_display_name}.
+        Ваша дискуссия, {merged_discussion_title}, была объединена в {discussion_title} пользователем {actor_display_name}.
         Просмотрите ее здесь {discussion_url} 
-      subject: Your discussion "{merged_discussion_title}" was merged
+      subject: "Ваше обсуждение {merged_discussion_title} было объединено"
