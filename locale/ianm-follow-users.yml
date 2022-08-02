@@ -45,8 +45,8 @@ ianm-follow-users:
         title: "Тип подписки на {username}"
         description: "Выберите, как бы вы хотели подписаться на <em>{username}</em>."
 
-        follow_levels_heading: "Выберите тип"
-        follow_select_label: "Выберите тип"
+        follow_levels_heading: "Тип подписки"
+        follow_select_label: "Тип подписки"
 
         no_user_attr_provided_err: "Что-то пошло не так при открытии"
         no_user_attr_provided_err_debug: "При создании модальному элементу SelectFollowUserLevel не был передан атрибут `user`. Модальный не может быть отображен."
@@ -57,7 +57,7 @@ ianm-follow-users:
   email:
     new_discussion_by_user_subject: "Пользователь, на которого вы подписаны, создал дискуссию {title}"
     new_follower_subject: "У вас новый подписчик!"
-    new_post_subject: "Пользователь, на которого вы подписаны, написал новый пост в {title}"
+    new_post_subject: "Пользователь, на которого вы подписаны, написал новое сообщение в {title}"
     new_discussion_by_user_body: |
       Привет {recipient_display_name},
 
@@ -83,7 +83,7 @@ ianm-follow-users:
     new_post_body: |
       Привет {recipient_display_name},
 
-      {user_display_name} написал новый пост в дискуссии: {discussion_title}
+      {user_display_name} написал новое сообщение в дискуссии: {discussion_title}
 
       Чтобы просмотреть, перейдите по следующей ссылке:
 
@@ -120,4 +120,4 @@ ianm-follow-users:
         name: "Подписаться на всю активность"
 
         description: |
-          Уведомлять о всех созданных дискуссиях и постах пользователем <em>{username}</em>.
+          Уведомлять о всех созданных дискуссиях и сообщениях пользователем <em>{username}</em>.
