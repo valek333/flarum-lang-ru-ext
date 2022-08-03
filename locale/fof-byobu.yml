@@ -99,25 +99,25 @@ fof-byobu:
         body:
             private_discussion_created: |
                 Здравствуйте, {recipient_display_name}!
-                {actor_display_name} начал(а) новую переписку с Вами. Название переписки: '{discussion_title}'.
+                {actor_display_name} начал(а) новую переписку с Вами. Название переписки: {discussion_title}
                 Посмотреть:
                 {discussion_url}
                 Вы должны будете войти под своей учётной записью для того, чтобы получить доступ к переписке.
             private_discussion_replied: |
                 Здравствуйте, {recipient_display_name}!
-                {actor_display_name} ответил(а) в переписке, участником которой Вы являетесь. Название переписки: '{discussion_title}'.
+                {actor_display_name} ответил(а) в переписке, участником которой Вы являетесь. Название переписки: {discussion_title}
                 Посмотреть:
                 {post_url}
                 Вы должны будете войти под своей учётной записью для того, чтобы получить доступ к переписке.
             recipient_removed: |
                 Здравствуйте, {recipient_display_name}!
-                {actor_display_name} покинул(а) переписку '{discussion_title}'. Этот участник больше не сможет читать сообщения переписки.
+                {actor_display_name} покинул(а) переписку {discussion_title} Этот участник больше не сможет читать сообщения переписки.
                 Посмотреть:
                 {discussion_url}
                 Вы должны будете войти под своей учётной записью для того, чтобы получить доступ к переписке.
             private_discussion_added: |
                 Здравствуйте, {recipient_display_name}!
-                {actor_display_name} добавил(а) Вас в существующую переписку. Название переписки: '{discussion_title}'.
+                {actor_display_name} добавил(а) Вас в существующую переписку. Название переписки: {discussion_title}
                 Посмотреть:
                 {discussion_url}
                 Вы должны будете войти под своей учётной записью для того, чтобы получить доступ к переписке.
