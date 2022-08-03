@@ -34,8 +34,8 @@
         "notify_email_tooltip": "Получать e-mail, когда появляются новые дискуссии или сообщения"
       },
       "notifications": {
-        "new_discussion_text": "{username} создал(а)",
-        "new_post_text": "{username} ответил(а)",
+        "new_discussion_text": "{username} создал(а) дискуссию",
+        "new_post_text": "{username} ответил(а) в дискуссии",
         "new_discussion_tag_text": "{username} изменил(а) тег"
       },
       "user": {
