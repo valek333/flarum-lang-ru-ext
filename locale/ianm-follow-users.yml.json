@@ -57,12 +57,12 @@
       }
     },
     "email": {
-      "new_discussion_by_user_subject": "Пользователь, на которого вы подписаны, создал дискуссию {title}",
+      "new_discussion_by_user_subject": "[Подписка на пользователя] {user_display_name} создал дискуссию {title}",
       "new_follower_subject": "У вас новый подписчик!",
-      "new_post_subject": "Пользователь, на которого вы подписаны, написал новое сообщение в {title}",
-      "new_discussion_by_user_body": "Привет {recipient_display_name},\n\n{user_display_name} создал новую дискуссию: {discussion_title}\n\nЧтобы просмотреть ее, перейдите по следующей ссылке:\n\n{discussion_url}\n\n---\n\n{post_content}\n",
+      "new_post_subject": "[Подписка на пользователя] {user_display_name} написал новое сообщение в {title}",
+      "new_discussion_by_user_body": "Привет {recipient_display_name},\n\n{user_display_name} создал новую дискуссию: {discussion_title}\n\nЧтобы просмотреть ее, перейдите по следующей ссылке:\n\n{discussion_url}\n\n---\n\nТекст сообщения:\n\n{post_content}\n",
       "new_follower_body": "Привет! {recipient_display_name},\n\n{follower_display_name} подписался на вас.\n\nЧтобы просмотреть его профиль, перейдите по следующей ссылке:\n\n{profile_url}\n",
-      "new_post_body": "Привет {recipient_display_name},\n\n{user_display_name} написал новое сообщение в дискуссии: {discussion_title}\n\nЧтобы просмотреть, перейдите по следующей ссылке:\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nВы не будете получать уведомления об этой дискуссии, пока не ознакомитесь с текущей информацией.\n"
+      "new_post_body": "Привет {recipient_display_name},\n\n{user_display_name} написал новое сообщение в дискуссии: {discussion_title}\n\nЧтобы просмотреть, перейдите по следующей ссылке:\n\n{post_url}\n\n---\n\nТекст сообщения:\n\n{post_content}\n\n---\n\nВы не будете получать уведомления об этой дискуссии, пока не ознакомитесь с текущей информацией.\n"
     },
     "lib": {
       "following_link": "Подписки на пользователей",
