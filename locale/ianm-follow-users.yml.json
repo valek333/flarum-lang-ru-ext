@@ -29,10 +29,10 @@
         "unfollow_tag_button": "=> ianm-follow-users.lib.change_follow_type"
       },
       "notifications": {
-        "new_discussion_text": "{username} создал дискуссию",
-        "new_post_text": "{username} написал пост в дискуссии",
+        "new_discussion_text": "{username} создал(а) дискуссию",
+        "new_post_text": "{username} написал(а) пост в дискуссии",
         "new_follower_text": "{username} подписался на меня",
-        "new_unfollower_text": "{username} отписался"
+        "new_unfollower_text": "{username} отписался от меня"
       },
       "badge": {
         "label": {
