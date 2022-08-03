@@ -54,9 +54,9 @@
     },
     "email": {
       "subject": {
-        "newDiscussionInTag": "[Тег | Новая дискуссия] {title}",
-        "newPostInTag": "[Тег | Новое сообщение] {title}",
-        "newDiscussionTag": "[Тег | Изменение тега] {title}"
+        "newDiscussionInTag": "[Подписка на теги] новая дискуссия {title}",
+        "newPostInTag": "[Подписка на теги] новое сообщение {title}",
+        "newDiscussionTag": "[Подписка на теги] изменение тега {title}"
       },
       "body": {
         "newDiscussionInTag": "Здравствуйте, {recipient_display_name}!\n{actor_display_name} создал(а) новую дискуссию: {discussion_title}\nЧтобы посмотреть новую дискуссию, перейдите по следующей ссылке:\n{discussion_url}\n---\n{post_content}\n",
