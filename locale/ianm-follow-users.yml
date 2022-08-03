@@ -55,9 +55,9 @@ ianm-follow-users:
         cancel_btn: "Отменить"
 
   email:
-    new_discussion_by_user_subject: "[Подписка на пользователя] {user_display_name} создал дискуссию {title}"
+    new_discussion_by_user_subject: "[Подписка на пользователя] новая дискуссия {title}"
     new_follower_subject: "У вас новый подписчик!"
-    new_post_subject: "[Подписка на пользователя] {user_display_name} написал новое сообщение в {title}"
+    new_post_subject: "[Подписка на пользователя] новое сообщение в {title}"
     new_discussion_by_user_body: |
       Привет {recipient_display_name},
 
