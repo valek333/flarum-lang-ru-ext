@@ -51,7 +51,7 @@ fof-merge-discussions:
   email:
     merged:
       body: |
-        Привет {имя_получателя},
+        Привет {recipient_display_name},
         Ваша дискуссия, {merged_discussion_title}, была объединена в {discussion_title} пользователем {actor_display_name}.
         Просмотрите ее здесь {discussion_url} 
       subject: "Ваша дискуссия {merged_discussion_title} была объединена"
