@@ -52,7 +52,7 @@
     },
     "email": {
       "merged": {
-        "body": "Привет {имя_получателя},\nВаша дискуссия, {merged_discussion_title}, была объединена в {discussion_title} пользователем {actor_display_name}.\nПросмотрите ее здесь {discussion_url} \n",
+        "body": "Привет {recipient_display_name},\nВаша дискуссия, {merged_discussion_title}, была объединена в {discussion_title} пользователем {actor_display_name}.\nПросмотрите ее здесь {discussion_url} \n",
         "subject": "Ваша дискуссия {merged_discussion_title} была объединена"
       }
     }
