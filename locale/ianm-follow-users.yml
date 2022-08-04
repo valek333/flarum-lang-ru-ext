@@ -29,8 +29,8 @@ ianm-follow-users:
     notifications:
       new_discussion_text: "{username} создал(а) дискуссию"
       new_post_text: "{username} написал(а) сообщение в дискуссии"
-      new_follower_text: "{username} подписался на меня"
-      new_unfollower_text: "{username} отписался от меня"
+      new_follower_text: "{username} подпился(ась) на меня"
+      new_unfollower_text: "{username} отписался(ась) от меня"
 
     badge:
       label:
