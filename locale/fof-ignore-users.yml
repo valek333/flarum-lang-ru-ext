@@ -24,4 +24,4 @@ fof-ignore-users:
 
     badge:
       user_label: "Скрытый пользователь"
-      discussion_label: "Опубликовано пользователем, скрытым Вами"
+      discussion_label: "Опубликовано скрытым пользователем"
