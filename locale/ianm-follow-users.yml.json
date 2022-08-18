@@ -5,11 +5,14 @@
         "be_followed_label": "Разрешать пользователям подписываться друг на друга"
       },
       "settings": {
-        "button-on-profile-label": "Показать кнопку Подписаться в шапке профиля пользователя"
+        "button-on-profile-label": "Показать кнопку Подписаться в шапке профиля пользователя",
+        "stats-on-profile-label": "Показывать количество подписчиков и подписчиков в профилях пользователей"
       }
     },
     "forum": {
       "profile_link": "=> ianm-follow-users.lib.following_link",
+      "followed": "подписки",
+      "followers": "{count, plural, one {подписчик} other {подписчиков}}",
       "profile_page": {
         "no_following": "Похоже, вы не на кого не подписаны."
       },
@@ -31,7 +34,7 @@
       "notifications": {
         "new_discussion_text": "{username} создал(а) дискуссию",
         "new_post_text": "{username} написал(а) сообщение в дискуссии",
-        "new_follower_text": "{username} подписался(ась) на меня",
+        "new_follower_text": "{username} подпился(ась) на меня",
         "new_unfollower_text": "{username} отписался(ась) от меня"
       },
       "badge": {
