@@ -20,17 +20,6 @@
         "pink": "Розовый",
         "monochrome": "Монохромный"
       },
-      "text_color": {
-        "label": "Цвет текста",
-        "options": {
-          "default": "По умолчанию",
-          "theme_primary_color": "Основной цвет темы",
-          "theme_secondary_color": "Тема Вторичный Цвет",
-          "custom": "Кастомный цвет"
-        },
-        "custom_label": "Кастомный цвет текста",
-        "custom_helptext": "Должно быть шестнадцатеричным (включая "
-      },
       "generate_color_button": "Генерировать случайный цвет"
     }
   }
