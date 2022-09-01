@@ -1,0 +1,24 @@
+clarkwinkelmann-author-change:
+    forum:
+        controls:
+            edit: "Изменить дату и автора"
+        modal:
+            title-post: "Изменить автора поста и дату"
+            title-discussion: "Изменить автора дискуссии и дату"
+            user: "Автор"
+            created_at: "Время публикации"
+            edited_at: "Изменить время"
+            sync-with-discussion: "Синхронизировать с обсуждением"
+            sync-with-post: "Синхронизировать с первым сообщением"
+            sync-impossible: "Не удается найти первое сообщение. Попробуйте прокрутить страницу до начала обсуждения."
+            submit: "Сохранить"
+            cancel: "Отменить"
+        search:
+            placeholder: "Поиск пользователей"
+            type-more: "Введите 3 символа для поиска в базе данных"
+            no-results: "Нет результатов"
+
+    admin:
+        permissions:
+            edit-user: "Обновление автора дискуссии и поста"
+            edit-date: "Обновление даты дискуссии и поста"
