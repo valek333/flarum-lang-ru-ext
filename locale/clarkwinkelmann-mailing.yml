@@ -6,10 +6,10 @@ clarkwinkelmann-mailing:
 
     forum:
         links:
-            mail_individual: "Отправить Email пользователю"
+            mail_individual: "Отправить Email"
             mail_all: "Отправить Email"
         modal_mail:
-            title_text: "Составить письмо"
+            title_text: "Email"
             recipients_label: "Получатели"
             recipients_placeholder: "Добавить больше получателей..."
             subject_label: "Тема"
