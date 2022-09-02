@@ -6,10 +6,10 @@ clarkwinkelmann-mailing:
 
     forum:
         links:
-            mail_individual: "Отправить Email"
+            mail_individual: "Отправить Email пользователю"
             mail_all: "Отправить Email"
         modal_mail:
-            title_text: "Email"
+            title_text: "Составить письмо"
             recipients_label: "Получатели"
             recipients_placeholder: "Добавить больше получателей..."
             subject_label: "Тема"
@@ -18,7 +18,7 @@ clarkwinkelmann-mailing:
             submit_button: "Отправить"
         modal_sent:
             title_text: "Email отправлен!"
-            on_its_way: "Отлично! Ваша почта находится на пути к получателям {recipientsCount}"
+            on_its_way: "Отлично! Ваша почта находится на пути к {recipientsCount} получателю(ям)"
         recipient_kinds:
             user: "Пользователь"
             group: "Группа"
@@ -31,4 +31,4 @@ clarkwinkelmann-mailing:
         default_subject: => clarkwinkelmann-mailing.ref.default_subject
 
     ref:
-        default_subject: "Сообщение от администрации форума"
+        default_subject: "Введите тему письма"
