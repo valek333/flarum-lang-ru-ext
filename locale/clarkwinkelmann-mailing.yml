@@ -1,0 +1,34 @@
+clarkwinkelmann-mailing:
+    admin:
+        permissions:
+            mail_individual: "Отправка электронных писем отдельным пользователям"
+            mail_all: "Отправляйте электронные письма группам или всем пользователям"
+
+    forum:
+        links:
+            mail_individual: "Отправить Email пользователю"
+            mail_all: "Отправить Email"
+        modal_mail:
+            title_text: "Составить письмо"
+            recipients_label: "Получатели"
+            recipients_placeholder: "Добавить больше получателей..."
+            subject_label: "Тема"
+            default_subject: => clarkwinkelmann-mailing.ref.default_subject
+            message_label: "Сообщение"
+            submit_button: "Отправить"
+        modal_sent:
+            title_text: "Email отправлен!"
+            on_its_way: "Отлично! Ваша почта находится на пути к получателям {recipientsCount}"
+        recipient_kinds:
+            user: "Пользователь"
+            group: "Группа"
+            email: "Email"
+
+    api:
+        no_recipients: "Ни один получатель не был подобран"
+
+    email:
+        default_subject: => clarkwinkelmann-mailing.ref.default_subject
+
+    ref:
+        default_subject: "Сообщение от администрации форума"
