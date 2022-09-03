@@ -1,0 +1,46 @@
+clarkwinkelmann-anonymous-posting:
+    admin:
+        settings:
+            composerHelpTextPosition: "Положение текста справки Composer"
+            composerHelpTextPositionVisible: "Видимый (под этикеткой)"
+            composerHelpTextPositionTooltip: "Всплывающая подсказка (после метки)"
+            composerHelpTextPositionHidden: "Скрытый"
+            avatars: "Анонимные аватары"
+            avatarsHelp: >
+                Для этой функции требуется расширение premium <a>Formulaire</a>.
+                Использование этой функции оказывает небольшое влияние на производительность, поскольку для извлечения обсуждений и сообщений требуются дополнительные запросы к базе данных.
+                Более подробную информацию о формате для каждого ввода см. в разделе README.
+            avatarFormId: "Идентификатор формы"
+            avatarFieldKey: "Ключ поля"
+            avatarFieldValue: "Значение поля"
+            avatarAvatarUrl: "URL-адрес аватара"
+            avatarAdd: "Правило добавления аватара"
+        permissions:
+            use: "Публикуйте анонимно"
+            reveal: "Смотрите реальных авторов анонимных обсуждений и постов"
+            moderate: "Анонимизировать или деанонимизировать любое обсуждение или сообщение"
+    forum:
+        composerControls:
+            anonymize: "Опубликовать анонимно"
+            anonymizeHelp: "Модераторы все равно будут знать, что вы создали этот контент"
+        discussionControls:
+            anonymize: "Анонимизировать"
+            anonymizeConfirmation: "Это сделает автора обсуждения анонимным. Первое сообщение должно быть анонимизировано отдельно. Продолжать?"
+            deanonymize: "Деанонимизация"
+            deanonymizeConfirmation: "Это снова сделает первоначального автора обсуждения общедоступным. Продолжать?"
+        postControls:
+            anonymize: "Анонимизировать"
+            firstPostConfirmation: "Это сделает автора первого поста анонимным. Обсуждение должно быть анонимизировано отдельно. Продолжать?"
+            deanonymize: "Деанонимизация"
+            deanonymizeConfirmation: "Это снова сделает первоначального автора сообщения общедоступным. Продолжать?"
+        discussionList:
+            genericReplyText: "Последний ответ {ago}"
+        postPrivacy:
+            mine: "Мне"
+            mineHelp: "Только вы можете видеть эту информацию"
+            profile: "Видимый только вам"
+            profileHelp: "Только вы можете видеть свои анонимные сообщения в своем профиле"
+    lib:
+        userMeta:
+            initials: "?"
+            username: "Анонимно"
