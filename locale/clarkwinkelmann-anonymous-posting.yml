@@ -1,9 +1,9 @@
 clarkwinkelmann-anonymous-posting:
     admin:
         settings:
-            composerHelpTextPosition: "Положение текста справки Composer"
-            composerHelpTextPositionVisible: "Видимый (под этикеткой)"
-            composerHelpTextPositionTooltip: "Всплывающая подсказка (после метки)"
+            composerHelpTextPosition: "Положение текста справки"
+            composerHelpTextPositionVisible: "Видимый"
+            composerHelpTextPositionTooltip: "Всплывающая подсказка"
             composerHelpTextPositionHidden: "Скрытый"
             avatars: "Анонимные аватары"
             avatarsHelp: >
@@ -16,22 +16,22 @@ clarkwinkelmann-anonymous-posting:
             avatarAvatarUrl: "URL-адрес аватара"
             avatarAdd: "Правило добавления аватара"
         permissions:
-            use: "Публикуйте анонимно"
-            reveal: "Смотрите реальных авторов анонимных обсуждений и постов"
-            moderate: "Анонимизировать или деанонимизировать любое обсуждение или сообщение"
+            use: "Анонимная публикация"
+            reveal: "Просмотр реальных авторов анонимных обсуждений и постов"
+            moderate: "Сделать или отменить анонимность любого обсуждения или сообщения"
     forum:
         composerControls:
             anonymize: "Опубликовать анонимно"
-            anonymizeHelp: "Модераторы все равно будут знать, что вы создали этот контент"
+            anonymizeHelp: "Ни кто не будет знать что вы создали это сообщение, кроме модераторов сообщества"
         discussionControls:
-            anonymize: "Анонимизировать"
+            anonymize: "Сделать анонимным"
             anonymizeConfirmation: "Это сделает автора обсуждения анонимным. Первое сообщение должно быть анонимизировано отдельно. Продолжать?"
-            deanonymize: "Деанонимизация"
+            deanonymize: "Отменить анонимность"
             deanonymizeConfirmation: "Это снова сделает первоначального автора обсуждения общедоступным. Продолжать?"
         postControls:
-            anonymize: "Анонимизировать"
+            anonymize: "Сделать анонимным"
             firstPostConfirmation: "Это сделает автора первого поста анонимным. Обсуждение должно быть анонимизировано отдельно. Продолжать?"
-            deanonymize: "Деанонимизация"
+            deanonymize: "Отменить анонимность"
             deanonymizeConfirmation: "Это снова сделает первоначального автора сообщения общедоступным. Продолжать?"
         discussionList:
             genericReplyText: "Последний ответ {ago}"
