@@ -34,7 +34,7 @@ sycho-move-posts:
       title: => sycho-move-posts.ref.move_posts
 
     notifications:
-      post_moved_text: "Один или несколько ваших сообщений были перемещены в {targetDiscussionTitle}."
+      post_moved_text: "Одно или несколько ваших сообщений были перемещены в {targetDiscussionTitle}."
 
     post:
       unmove: "Отменить перемещение"
