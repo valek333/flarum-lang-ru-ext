@@ -1,10 +1,17 @@
 clarkwinkelmann-anonymous-posting:
     admin:
         settings:
+            defaultAnonymity: "Новый пост по умолчанию анонимный"
+            defaultAnonymityWhenAbleToSwitch: "Новый пост по умолчанию анонимный для пользователей с разрешением switch"
+            alwaysAnonymiseEdits: "Всегда анонимные правки"
+            alwaysAnonymiseEditsHelp: >
+                По умолчанию правки/скрытие анонимным автором сообщения анонимизируются, но любой модератор, редактирующий сообщение или обсуждение, по-прежнему будет отображаться как автор правки/скрытия.
+                Когда эта опция включена, участник для редактирования/скрытия никогда не будет входить в систему с анонимным контентом, кем бы он ни был.
             composerHelpTextPosition: "Положение текста справки"
             composerHelpTextPositionVisible: "Видимый"
             composerHelpTextPositionTooltip: "Всплывающая подсказка"
             composerHelpTextPositionHidden: "Скрытый"
+            composerHelpTextPositionHelp: "Флажок и этот текст отображаются только для пользователей с разрешением switch."
             avatars: "Анонимные аватары"
             avatarsHelp: >
                 Для этой функции требуется расширение premium <a>Formulaire</a>.
@@ -18,7 +25,7 @@ clarkwinkelmann-anonymous-posting:
         permissions:
             use: "Анонимная публикация"
             reveal: "Просмотр реальных авторов анонимных обсуждений и постов"
-            moderate: "Сделать или отменить анонимность любого обсуждения или сообщения"
+            moderate: "Сделать или отменить анонимность любого обсуждения или поста"
     forum:
         composerControls:
             anonymize: "Опубликовать анонимно"
