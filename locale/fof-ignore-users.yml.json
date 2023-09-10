@@ -7,6 +7,9 @@
     },
     "forum": {
       "profile_link": "Скрытые пользователи",
+      "profile_page": {
+        "no_ignored": "Скрытых пользователей нет"
+      },
       "user_controls": {
         "ignore_button": "Скрыть пользователя",
         "ignore_confirmation": "Вы уверены, что хотите скрыть этого этого пользователя?",
