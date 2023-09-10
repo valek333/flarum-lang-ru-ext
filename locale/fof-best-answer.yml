@@ -80,8 +80,7 @@ fof-best-answer:
         Посмотреть: {discussion_url}
       ba-set: |
         Здравствуйте, {recipient_display_name}!
-        {actor_display_name} выбрал лучший ответ в дискуссии {discussion_title} , в которой Вы участвовали.
-																													 
+        {actor_display_name} выбрал лучший ответ в дискуссии {discussion_title} , в которой Вы участвовали.																											 
 
         Проверить: {discussion_url}
       select: |
