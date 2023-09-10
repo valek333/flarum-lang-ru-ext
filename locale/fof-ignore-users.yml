@@ -14,6 +14,8 @@ fof-ignore-users:
   forum:
 
     profile_link: "Скрытые пользователи"
+    profile_page:
+      no_ignored: "Скрытых пользователей нет"
 
     # These strings are used in the User Controls menu.
     user_controls:
