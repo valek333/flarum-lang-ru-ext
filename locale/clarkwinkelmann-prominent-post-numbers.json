@@ -1,0 +1,14 @@
+{
+  "clarkwinkelmann-prominent-post-numbers": {
+    "admin": {
+      "settings": {
+        "floating": "Плавающий номер поста в правом верхнем углу записи, а не в заголовке записи",
+        "prefix": "Префикс",
+        "prefixPlaceholder": "Оставьте пустым, чтобы настроить с помощью переводчика"
+      }
+    },
+    "views": {
+      "format": "{number}"
+    }
+  }
+}
