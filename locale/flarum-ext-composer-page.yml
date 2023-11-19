@@ -1,0 +1,18 @@
+clarkwinkelmann-composer-page:
+    admin:
+        settings:
+            onlyInTags: "Только в следующих тегах (необязательно)"
+            onlyInTagsHelp: >
+                Список тегов, разделенных запятыми. Оставьте пустым, чтобы всегда использовать страницу, даже до того, как будет выбран какой-либо тег.
+            forPrivateDiscussions: "Использовать для закрытых дискуссий"
+            forPrivateDiscussionsHelp: "Интегрирует Byobu Discussion Composer на страницу"
+    forum:
+        nav:
+            cancel: "Закрыть"
+            continue: "Продолжить дискуссию"
+        page:
+            title: "Начать дискуссию"
+            heading: "Начать дискуссию"
+        page-private:
+            title: "Начать закрытую дискуссию"
+            heading: "Начать закрытую дискуссию"
