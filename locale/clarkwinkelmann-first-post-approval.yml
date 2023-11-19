@@ -3,5 +3,5 @@ clarkwinkelmann-first-post-approval:
         permissions:
             bypass: "Публикация поста без предварительного одобрения"
         settings:
-            discussionCount: "Количество постов, требующих одобрения для"
+            discussionCount: "Количество постов, требующих одобрения"
             postCount: "Количество первых должностей, для которых потребуется утверждение"
