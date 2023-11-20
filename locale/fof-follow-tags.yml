@@ -14,7 +14,7 @@ fof-follow-tags:
         following_tags_label: => fof-follow-tags.ref.filtering_options.tags
 
     badge:
-      following_tag_tooltip: "Подписка"
+      following_tag_tooltip: "Подписки на теги"
       lurking_tag_tooltip: "Наблюдение"
 
     sub_controls:
