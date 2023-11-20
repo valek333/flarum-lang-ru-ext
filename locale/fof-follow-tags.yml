@@ -81,7 +81,7 @@ fof-follow-tags:
             {discussion_url}
   ref:
     follow: "Подписаться"
-    following: "Подписаться"
+    following: "Подписаны"
     hiding: "Скрыть тег"
     ignoring: "Игнорировать тег"
     lurking: "Следить за тегом"
