@@ -21,7 +21,7 @@
       }
     },
     "forum": {
-      "followed": "Подписки",
+      "followed": "подписки",
       "followers": "{count, plural, one {подписчик} other {подписчиков}}",
       "profile_link": "=> ianm-follow-users.lib.following_link",
       "profile_page": {
