@@ -77,5 +77,5 @@ flarum-subscriptions:
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
     follow: "Подписаться"
-    following: "Подписаны"
+    following: "Подписки"
     ignoring: "Скрыть"
