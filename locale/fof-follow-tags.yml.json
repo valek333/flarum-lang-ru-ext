@@ -15,7 +15,7 @@
         }
       },
       "badge": {
-        "following_tag_tooltip": "Подписка",
+        "following_tag_tooltip": "Подписки на теги",
         "lurking_tag_tooltip": "Наблюдение"
       },
       "sub_controls": {
