@@ -3,7 +3,7 @@
     "forum": {
       "badge": {
         "following_tooltip": "=> flarum-subscriptions.ref.following",
-        "ignoring_tooltip": "Скрыто"
+        "ignoring_tooltip": "=> flarum-subscriptions.ref.ignoring"
       },
       "discussion_controls": {
         "follow_button": "=> flarum-subscriptions.ref.follow",
@@ -14,21 +14,22 @@
         "meta_title_text": "=> flarum-subscriptions.ref.following"
       },
       "index": {
-        "following_link": "Подписки"
+        "following_link": "=> flarum-subscriptions.ref.following"
       },
       "notifications": {
         "new_post_text": "{username} ответил(а)"
       },
       "settings": {
         "follow_after_reply_label": "Автоматически подписываться на дискуссии, в которых я участвую",
-        "notify_new_post_label": "Ответ в дискуссиях, на которые я подписан"
+        "notify_for_all_posts_label": "Уведомлять о каждом новом сообщении, а не только о последнем в дискуссии",
+        "notify_new_post_label": "Кто-то публикует сообщение в дискуссии, на которое я подписан"
       },
       "sub_controls": {
         "follow_button": "=> flarum-subscriptions.ref.follow",
         "following_button": "=> flarum-subscriptions.ref.following",
-        "following_text": "Уведомлять обо всех ответах.",
+        "following_text": "Be notified of all replies.",
         "ignoring_button": "=> flarum-subscriptions.ref.ignoring",
-        "ignoring_text": "Отключение уведомлений из этой дискуссии. Скрыть в списке дискуссий.",
+        "ignoring_text": "Never be notified. Hide from the discussion list.",
         "not_following_button": "Не подписаны",
         "not_following_text": "Уведомлять только когда @упоминают.",
         "notify_alert_tooltip": "Получать уведомления форума при появлении новых сообщений",
