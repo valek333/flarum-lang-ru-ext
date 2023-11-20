@@ -25,5 +25,5 @@ flarum-nicknames:
     sign_up:
       nickname_placeholder: '=> flarum-nicknames.ref.nickname'
   ref:
-    change_nickname: 'Изменить имя'
-    nickname: Мое имя
+    change_nickname: 'Имя пользователя'
+    nickname: Имя пользователя
