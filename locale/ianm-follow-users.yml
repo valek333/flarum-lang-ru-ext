@@ -1,3 +1,11 @@
+blomstra-gdpr:
+  lib:
+    data:
+      followuser:
+        export_description: "Экспортирует сведения о подписчиках и пользователях, за которыми следят."
+        anonymize_description: "=> blomstra-gdpr.lib.data.followuser.delete_description"
+        delete_description: "Удаляет все данные, относящиеся к следующим пользователям."
+
 ianm-follow-users:
   admin:
     permissions:
@@ -7,12 +15,12 @@ ianm-follow-users:
       stats-on-profile-label: "Показывать количество подписчиков и подписчиков в профилях пользователей"
 
   forum:
-    profile_link: => ianm-follow-users.lib.following_link
-    followed: "подписки"
+    followed: "Подписки"
     followers: "{count, plural, one {подписчик} other {подписчиков}}"
+    profile_link: => ianm-follow-users.lib.following_link
 
     profile_page:
-      no_following: "Похоже, вы не на кого не подписаны."
+      no_following:  "Похоже, вы не на кого не подписаны."
 
     user_controls:
       follow_button: => ianm-follow-users.lib.follow
@@ -21,8 +29,8 @@ ianm-follow-users:
     settings:
       notify_new_follower_label: "Пользователь подписался на меня"
       notify_new_unfollower_label: "Пользователь отписался от меня"
-      notify_new_discussion_label: "Пользователь, на кого я подписан, начал дискуссию"
-      notify_new_post_label: "Пользователь, на кого я подписан, публикует сообщение в дискуссии"
+      notify_new_discussion_label: "Пользователь, на кого я подписан(а), начал дискуссию"
+      notify_new_post_label: "Пользователь, на кого я подписан(а), написал сообщение в дискуссии"
       block_follow: "Запретить пользователям подписываться на меня"
 
     index:
@@ -58,9 +66,9 @@ ianm-follow-users:
         cancel_btn: "Отменить"
 
   email:
-    new_discussion_by_user_subject: "[Подписка на пользователя] новая дискуссия {title}"
+    new_discussion_by_user_subject: "Пользователь, на которого Вы подписаны, начал дискуссию {title}"
     new_follower_subject: "У вас новый подписчик!"
-    new_post_subject: "[Подписка на пользователя] новое сообщение в {title}"
+    new_post_subject: "Пользователь, на которого Вы подписаны, опубликовал новое сообщение в {title}"
     new_discussion_by_user_body: |
       Привет {recipient_display_name},
 
