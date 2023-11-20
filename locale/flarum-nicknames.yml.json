@@ -35,8 +35,8 @@
       }
     },
     "ref": {
-      "change_nickname": "Изменить имя",
-      "nickname": "Мое имя"
+      "change_nickname": "Имя пользователя",
+      "nickname": "Имя пользователя"
     }
   }
 }
