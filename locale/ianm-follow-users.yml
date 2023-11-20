@@ -15,7 +15,7 @@ ianm-follow-users:
       stats-on-profile-label: "Показывать количество подписчиков и подписчиков в профилях пользователей"
 
   forum:
-    followed: "Подписки"
+    followed: "подписки"
     followers: "{count, plural, one {подписчик} other {подписчиков}}"
     profile_link: => ianm-follow-users.lib.following_link
 
