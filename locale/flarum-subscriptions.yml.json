@@ -27,9 +27,9 @@
       "sub_controls": {
         "follow_button": "=> flarum-subscriptions.ref.follow",
         "following_button": "=> flarum-subscriptions.ref.following",
-        "following_text": "Be notified of all replies.",
+        "following_text": "Получать уведомления обо всех ответах.",
         "ignoring_button": "=> flarum-subscriptions.ref.ignoring",
-        "ignoring_text": "Never be notified. Hide from the discussion list.",
+        "ignoring_text": "Никогда не получать уведомления. Скрыть из списка обсуждений.",
         "not_following_button": "Не подписаны",
         "not_following_text": "Уведомлять только когда @упоминают.",
         "notify_alert_tooltip": "Получать уведомления форума при появлении новых сообщений",
